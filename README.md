@@ -6,6 +6,11 @@
 ### ADDITIONAL NOTES: 
 ### Add flexibility
 ### If there is a threshold level of investment (say, $20M), there are more options available to customize their user experience (eg. more MC simulations)
+### Allow for the choice of sectors/industries
+### Contingency Planning: what happens in the event of a catstrophe
+### Is it possible to project sharpe ratios (eg) into the future to take into account the future response to the volatility of markets. 
+### Refining MC simulations: compute mean, standard deviation we can plot the high, low, mean outcome through time. This would be a way to create a robust projection of Sharpe Ratios into the future.
+### 
 ###
 # PROPSECTIVE LINKS TO DATA:
 #
