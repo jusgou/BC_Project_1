@@ -2,6 +2,10 @@
 #
 ## SCOPE: Building investment options based on historical trends and benchmarks.
 ## We provide a robo-advisory dashboard 
+## description: Investment portfolio builder that allows flexibility in portfolio distribution (ratio)
+## Benchmarking of portfolio 
+## Robo-advisory dashboard 
+## Feature: Forecasting portfolio performance on catastrophic situations leading to extreme volatility (Sharpe Ratio)
 ## 
 ### ADDITIONAL NOTES: 
 ### Add flexibility
