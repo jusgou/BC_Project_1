@@ -1,10 +1,14 @@
-# Human Robo
-
-## Advanced Robotic Advisors 
-
-
+# The Human Robot
+#
+## SCOPE: Building investment options based on historical trends and benchmarks.
+## We provide a robo-advisory dashboard 
+## 
+### ADDITIONAL NOTES: 
+### Add flexibility
+### If there is a threshold level of investment (say, $20M), there are more options available to customize their user experience (eg. more MC simulations)
+###
 # PROPSECTIVE LINKS TO DATA:
-
+#
 ### CA Filings: https://www.sedar.com/homepage_en.htm
 ### Bloomberg API Library: https://www.bloomberg.com/professional/support/api-library/
 ### Calc ref: https://blog.quandl.com/guide-to-stock-price-calculation
