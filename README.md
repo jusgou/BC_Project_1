@@ -1,11 +1,12 @@
 # The Human Robot
 #
 ## SCOPE: Building investment options based on historical trends and benchmarks.
-## We provide a robo-advisory dashboard 
-## description: Investment portfolio builder that allows flexibility in portfolio distribution (ratio)
-## Benchmarking of portfolio 
-## Robo-advisory dashboard 
-## Feature: Forecasting portfolio performance on catastrophic situations leading to extreme volatility (Sharpe Ratio)
+### We provide a robo-advisory dashboard 
+### description: Investment portfolio builder that allows flexibility in portfolio distribution (ratio)
+### Benchmarking of portfolio 
+### Robo-advisory dashboard 
+### Feature: Forecasting portfolio performance on catastrophic situations leading to extreme volatility (Sharpe Ratio)
+### Create a slider that allows a user to choose how many years of history they would like to incorporate into their projections (more history = more accuracy for their predictions.
 ## 
 ### ADDITIONAL NOTES: 
 ### Add flexibility
@@ -17,7 +18,6 @@
 ### 
 ###
 # PROPSECTIVE LINKS TO DATA:
-#
 ### CA Filings: https://www.sedar.com/homepage_en.htm
 ### Bloomberg API Library: https://www.bloomberg.com/professional/support/api-library/
 ### Calc ref: https://blog.quandl.com/guide-to-stock-price-calculation
