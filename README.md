@@ -3,7 +3,7 @@
 ## SCOPE: 
 ### At the center of our project is a stock allocating model that selects stocks based on the personal and risk profiles of our customers. 
 ### Using historical trends, benchmarks, and company fundamentals, our proprietary selection method allocates stocks into a weighted portfolio based on their risk relative to the S&P500 benchmark. 
-### Our analysis, forecasting, and selections are based on 20 years of historical data. 
+### Our analysis, forecasting, and selections are based on 20 years of historical data for U.S. Equity Markets. 
 ### In addition to our customer on-boarding and stock selection methods, our company also provides customers with advanced dashboards that allow them to explore other weighting, sector, industry, and stock allocations, and to see forecasts of the performance these new, potential portfolios.
 ### If they are satisfied, customers are then able to select this portfolio, and our trading software will make the appropriate transactions to satisfy their needs. 
 ### Our Monte Carlo sumulations project future stock performance using a high, low, and median projection.
