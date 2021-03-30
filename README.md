@@ -1,22 +1,18 @@
-# The Human Robot
+# ROBO-SEER: Investment Strategies for All
 #
-## SCOPE: Building investment options based on historical trends and benchmarks.
-### We provide a robo-advisory dashboard 
-### description: Investment portfolio builder that allows flexibility in portfolio distribution (ratio)
-### Benchmarking of portfolio 
-### Robo-advisory dashboard 
-### Feature: Forecasting portfolio performance on catastrophic situations leading to extreme volatility (Sharpe Ratio)
-### Create a slider that allows a user to choose how many years of history they would like to incorporate into their projections (more history = more accuracy for their predictions.
-## 
-### ADDITIONAL NOTES: 
-### Add flexibility
-### If there is a threshold level of investment (say, $20M), there are more options available to customize their user experience (eg. more MC simulations)
-### Allow for the choice of sectors/industries
-### Contingency Planning: what happens in the event of a catstrophe
-### Is it possible to project sharpe ratios (eg) into the future to take into account the future response to the volatility of markets. 
-### Refining MC simulations: compute mean, standard deviation we can plot the high, low, mean outcome through time. This would be a way to create a robust projection of Sharpe Ratios into the future.
-### 
+## SCOPE: At the center of our project is a stock allocating model that selects stocks based on the personal and risk profiles of our customers. 
+## Using historical trends, benchmarks, and company fundamentals, our proprietary selection method allocates stocks into a weighted portfolio based on their risk relative to the S&P500 benchmark. 
+## In addition to our customer on-boarding and stock selection methods, our company also provides customers with advanced dashboards that allow them to explore other weighting, sector, industry, and stock allocations, and to see forecasts of the performance these new, potential portfolios.
+## If they are satisfied, customers are then able to select this portfolio, and our trading software will make the appropriate transactions to satisfy their needs. 
+## Our Monte Carlo sumulations project future stock performance using a high, low, and median projection.
 ###
+#### ADDITIONAL IDEAS:
+#### Forecasting portfolio performance on catastrophic situations leading to extreme volatility (Sharpe Ratio)
+#### A slider that allows a user to choose how many years of history they would like to incorporate into their projections (more history = more accuracy for their predictions
+#### A threshold level of investment (say, $20M), creates more options for customizing the user experience (eg. more MC simulations)
+#### Contingency Planning: what happens in the event of a catstrophe
+#### Forecast Sharpe Ratios into the future and try to predict future responses to the volatility of markets. 
+### 
 # PROPSECTIVE LINKS TO DATA:
 ### CA Filings: https://www.sedar.com/homepage_en.htm
 ### Bloomberg API Library: https://www.bloomberg.com/professional/support/api-library/
