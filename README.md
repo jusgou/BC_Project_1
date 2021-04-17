@@ -1,50 +1,83 @@
-# ROBO-SEER: Investment Strategies for All
-#
-## SCOPE: 
-### At the center of our project is a stock allocating model that selects stocks based on the personal and risk profiles of our customers. 
-### Using historical trends, benchmarks, and company fundamentals, our proprietary selection method allocates stocks into a weighted portfolio based on their risk relative to the S&P500 benchmark. 
-### Our analysis, forecasting, and selections are based on 20 years of historical data for U.S. Equity Markets. 
-### In addition to our customer on-boarding and stock selection methods, our company also provides customers with advanced dashboards that allow them to explore other weighting, sector, industry, and stock allocations, and to see forecasts of the performance these new, potential portfolios.
-### If they are satisfied, customers are then able to select this portfolio, and our trading software will make the appropriate transactions to satisfy their needs. 
-### Our Monte Carlo sumulations project future stock performance using a high, low, and median projection.
-###
-#### ADDITIONAL IDEAS:
-#### Forecasting portfolio performance on catastrophic situations leading to extreme volatility (Sharpe Ratio)
-#### A slider that allows a user to choose how many years of history they would like to incorporate into their projections (more history = more accuracy for their predictions
-#### A threshold level of investment (say, $20M), creates more options for customizing the user experience (eg. more MC simulations)
-#### Contingency Planning: what happens in the event of a catstrophe
-#### Forecast Sharpe Ratios into the future and try to predict future responses to the volatility of markets. 
-### 
-# PROPSECTIVE LINKS TO DATA:
-### CA Filings: https://www.sedar.com/homepage_en.htm
-### Bloomberg API Library: https://www.bloomberg.com/professional/support/api-library/
-### Calc ref: https://blog.quandl.com/guide-to-stock-price-calculation
-### API Asian Market: https://rapidapi.com/search/asia
-###
-### https://hedgefollow.com/funds/Berkshire+Hathaway
-### "Yahoo finance as a datasource
-### [example,
-### pip install yfinance
-###
-### import yfinance as yf
-### import pandas as pd
-###
-### sp500 = yf.Ticker('^GSPC')
-### sp500_hist = sp500.history(period='1y')
-### sp500_hist.to_csv('sp500_1y.csv') 
-]"
-###
-### https://www.koyfin.com/
-### https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset
-###
-### Zoom  NasdaqGS
-### "Netflix, Inc. (NFLX)
-### NasdaqGS"
-###
-### https://www.sec.gov/edgar/searchedgar/accessing-edgar-data.htm
-### https://sec-api.io/profilehttps://sec-api.io/docs#query-examples
-### https://sec-api.io/docs#full-text-search-api
-### https://sec-api.io/profile
-### https://www.tradingview.com/chart/ARKG/RB9xV91N-ARKG-1-year-comparison-of-Cathie-Woods-7-ARK-etf-s/
-### https://developer.hangseng.com/#/home
-### https://www.npmjs.com/package/sec-api
+# PROJECT OVERVIEW
+
+## HUMAN ROBOMYSTIC: Automated Investment Strategies
+---
+
+##  COLLABORATORS
+- Coney Dacanay
+- Dipendra Shastri
+- Justin Gouin 
+- Sherin Solomon
+- Yu Wang
+---
+##  SUMMARY
+
+
+Investing in the stock market may seem to be intimidating and complicated, this project proposes an avenue to simplify and automate the process of choosing among the thousands of publicly-traded stocks in the U.S. market with the consideration of company performance and the investor’s risk tolerance. 
+
+The core stock selection process will be using more than 20 years of historical company stock data, beginning from year 200 until the current day. Also, to streamline the complexity of various investing strategies, this project will mimic the strategy of an index investor by using S&P 500 Index (SPY) as its baseline. SPY data will be used for comparison on company information and performance across all portfolios that will be recommended after the financial analysis.  
+
+---
+## OBJECTIVES
+
+To create a stock-allocating model that provides clients with a list of publicly-traded stocks based on their personal and risk profiles.
+To allow customers to build their own portfolio of equity stocks through exploring among recommended stocks and adjusting the weightings/ratios in order to maximize potential earnings. 
+To present stock performance forecasting of chosen stocks.
+
+---
+## METHODOLOGY
+
+**1. Client Onboarding & Know Your Client (KYC)**
+
+The YAML (YAML Ain’t Markup Language) module was utilized, as recommended by one of our mentors, to configure, store, and transmit client’s data; prospective clients will be filling out a KYC form. Although the KYC format used for this project only covers few basic data points and does not meet the Canadian KYC and Anti-Money Laundering (AML) requirements, incorporating the YAML file will help in the process of relating the client’s risk tolerance taken from the KYC form with the risk level of various publicly-trading companies based on chosen financial criteria. 
+
+**2. Data Exploration**
+
+Aside from the information that will be provided by clients through the KYC form, majority of the working data used in this project were captured from Yahoo! Finance with the combination of these sources and processes:
+- Data scraping from Yahoo! Finance website
+- Python modules such as finance and yahoofinancials
+
+
+**3. Company Overview & Benchmarking**
+
+As an initial report presented to clients, the company information dataframe serves as a summary of recommended companies to invest in, which risk levels match the risk tolerance of the client. This table  shows fundamental company information as well as an overview of company performance of each recommended company side-by-side with each other and along with the project’s main exchange-traded fund (ETF) benchmark, the S&P 500 (SPY). Clients are encouraged to review and compare these information for them to decide on the initial mix of stocks to build their portfolio according to their preference. 
+
+**4. Financial Analysis & Portfolio Allocation Proposal**
+
+To take a deeper look at company performance, statistical analysis of the historical stock data will be performed with the intention of organizing the stocks into their respective risk level (low, mid, high) or category based on predetermined criterias. 
+
+Each stock’s risk level will be categorized based on these three financial statistical criteria which will be matched with the client’s risk tolerance:
+- Annualized standard deviation [Low: <2 | Mid: 2-5 | High: >5];
+- Sharpe ratio [Low: 1-5 | Mid: 6-10 | High: >10]; and 
+- P/E Ratio [Low: <10 | Mid: 10-20 | High: >20].
+
+After narrowing down the list of the matched stocks, clients can create the breakdown of each stock within their portfolio.
+
+**5.Profitability Forecasting**
+
+---
+## POTENTIAL FEATURES AND PROJECT EXPANSION
+
+- **Contingency Planning**
+
+What happens to one’s investments in the event of an economic crisis, a catastrophe, and/or a pandemic? Forecasting portfolio performance on situations leading to extreme volatility (Sharpe Ratio).
+
+- **User interface**
+
+To further utlize the 20-year historical data, it would be nice to include a slider that allows the user to choose the number of historical years to incorporate into projections.
+
+- **Flexible Investment Thresholds**
+
+ Allow potential clients to invest in each stock from $20 to possibly $20 million to maximize the capability of clients in placing weights of their investments into different stocks.
+
+- **Online Stock Trading**
+
+Integrate an automated trading program that allows online buying and selling when clients are satisfied with the selected portfolio.
+
+---
+## GENERAL REFERENCES
+
+- https://pypi.org/project/yahoo-finance/
+- https://pypi.org/project/FundamentalAnalysis/
+- https://codingandfun.com/comparing-industry-profitability-ratios-with-python/
+- https://corporatefinanceinstitute.com/resources/knowledge/finance/sharpe-ratio-definition-formula/
