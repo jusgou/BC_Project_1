@@ -1,5 +1,8 @@
 # PROJECT OVERVIEW
 
+<image scr="/Users/coneychiwabee/FinTech_project/BC_Project_1/Images/GettyImages_RoboAdvisor.png">
+
+
 ## HUMAN ROBOMYSTIC: Automated Investment Strategies
 ---
 
@@ -20,9 +23,9 @@ The core stock selection process will be using more than 20 years of historical 
 ---
 ## OBJECTIVES
 
-To create a stock-allocating model that provides clients with a list of publicly-traded stocks based on their personal and risk profiles.
-To allow customers to build their own portfolio of equity stocks through exploring among recommended stocks and adjusting the weightings/ratios in order to maximize potential earnings. 
-To present stock performance forecasting of chosen stocks.
+- To create a stock-allocating model that provides clients with a list of publicly-traded stocks based on their personal and risk profiles.
+- To allow customers to build their own portfolio of equity stocks through exploring among recommended stocks and adjusting the weightings/ratios in order to maximize potential earnings. 
+- To present stock performance forecasting for finalized portfolios.
 
 ---
 ## METHODOLOGY
