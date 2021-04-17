@@ -1,7 +1,6 @@
 # PROJECT OVERVIEW
 
-<image scr="Images/GettyImages_RoboAdvisor.png">
-
+![RoboAdvisor](Images/GettyImages_RoboAdvisor.png)
 
 ## HUMAN ROBOMYSTIC: Automated Investment Strategies
 ---
@@ -18,7 +17,7 @@
 
 Investing in the stock market may seem to be intimidating and complicated, this project proposes an avenue to simplify and automate the process of choosing among the thousands of publicly-traded stocks in the U.S. market with the consideration of company performance and the investor’s risk tolerance. 
 
-The core stock selection process will be using more than 20 years of historical company stock data, beginning from year 200 until the current day. Also, to streamline the complexity of various investing strategies, this project will mimic the strategy of an index investor by using S&P 500 Index (SPY) as its baseline. SPY data will be used for comparison on company information and performance across all portfolios that will be recommended after the financial analysis.  
+The core stock selection process will be using more than 20 years of historical company stock data, beginning from year 2000 until the current day. Also, to streamline the complexity of various investing strategies, this project will mimic the strategy of an index investor by using S&P 500 Index (SPY) as its baseline. SPY data will be used for comparison on company information and performance across all portfolios that will be recommended after the financial analysis.  
 
 ---
 ## OBJECTIVES
