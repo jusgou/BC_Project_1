@@ -1,6 +1,6 @@
 # PROJECT OVERVIEW
 
-<image scr="/Users/coneychiwabee/FinTech_project/BC_Project_1/Images/GettyImages_RoboAdvisor.png">
+<image scr="Images/GettyImages_RoboAdvisor.png">
 
 
 ## HUMAN ROBOMYSTIC: Automated Investment Strategies
