@@ -11,6 +11,10 @@
 - Justin Gouin 
 - Sherin Solomon
 - Yu Wang
+
+---
+##  Please review the Master_File
+
 ---
 ##  SUMMARY
 
@@ -35,9 +39,9 @@ The YAML (YAML Ain’t Markup Language) module was utilized, as recommended by o
 
 **2. Data Exploration**
 
-Aside from the information that will be provided by clients through the KYC form, majority of the working data used in this project were captured from Yahoo! Finance with the combination of these sources and processes:
+Aside from the information that will be provided by clients through the KYC YAML forms, majority of the working data used in this project were captured from Yahoo! Finance with the combination of these sources and processes:
 - Data scraping from Yahoo! Finance website
-- Python modules such as finance and yahoofinancials
+- Python modules such as yfinance and yahoofinancials
 
 
 **3. Company Overview & Benchmarking**
