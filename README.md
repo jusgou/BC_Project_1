@@ -59,7 +59,15 @@ Each stock’s risk level will be categorized based on these three financial sta
 
 After narrowing down the list of the matched stocks, clients can create the breakdown of each stock within their portfolio.
 
-**5.Profitability Forecasting**
+**5.Client Recommendations**
+
+ The customers are categorized based on Qualifiers and Assumptions. At this stage in our understanding of data analysis, we have added various human elements to assign the data.
+
+Our program makes recommendations to our customers based on its interpretation of their KYC information and recommends a portfolio.
+
+In future iterations of our project, these recommendations will be taken as the baseline on which customers can build. They will be able to interact with and change their portfolios to explore other options, which will include our visualizations.
+
+As our company name suggestions, the automated system provides suggestions, but control over the outcome remains with the humans.
 
 ---
 ## POTENTIAL FEATURES AND PROJECT EXPANSION
