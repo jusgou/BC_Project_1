@@ -2,7 +2,7 @@
 
 ![RoboAdvisor](Images/GettyImages_RoboAdvisor.png)
 
-## HUMAN ROBOMYSTIC: Automated Investment Strategies
+## HUMAN ROBOMYSTIC: Automated Investing that Feels Human
 ---
 
 ##  COLLABORATORS
